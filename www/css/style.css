@@ -1,4 +1,4 @@
-body{
+body{/* Fundo RGB */
 background: linear-gradient(360deg, #ff0000, #ff6700, #ff9400, #ffcd00, #ffe300, #eeff00, #c1ff00, #89ff00, #23ff00, #00ff42, #00ff9c, #00ffd4, #00fdff, #00c5ff, #0098ff, #0054ff, #0011ff, #1100ff, #5500ff, #8d00ff, #ba00ff, #ff00f5, #ff00d4, #ff007a, #ff000d);
 background-size: 5000% 5000%;
 
@@ -10,7 +10,7 @@ animation:colorSpin 5s linear infinite;
     100%{background-position:100% 0%}
 }
 
-nav {
+nav { /* Menu Lateral */
     height: 652px;
     width: 280px;
     background-color: rgb(49, 49, 49);
