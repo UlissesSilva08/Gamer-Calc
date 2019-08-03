@@ -1,0 +1,54 @@
+body{
+background: linear-gradient(360deg, #ff0000, #ff6700, #ff9400, #ffcd00, #ffe300, #eeff00, #c1ff00, #89ff00, #23ff00, #00ff42, #00ff9c, #00ffd4, #00fdff, #00c5ff, #0098ff, #0054ff, #0011ff, #1100ff, #5500ff, #8d00ff, #ba00ff, #ff00f5, #ff00d4, #ff007a, #ff000d);
+background-size: 5000% 5000%;
+
+animation:colorSpin 5s linear infinite;
+}
+
+@keyframes colorSpin { 
+    0%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
+
+nav {
+    height: 652px;
+    width: 280px;
+    background-color: rgb(49, 49, 49);
+    left: 0%;
+    top: 1%;
+    z-index: 2;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: visible;
+    transform: translate(-280px,0);
+}
+.ssm-overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1;
+}
+
+.is-navOpen{
+  overflow: hidden;
+}
+
+button{
+  background: none;
+  border: 0;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+
+.box{
+  width: 359px;
+  height: 652px;
+  background: #191919;
+  position: absolute;
+  top: 1%;
+  left: 2%;
+}
